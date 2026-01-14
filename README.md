@@ -92,25 +92,25 @@ To verify the SIEM was operational, I simulated a brute-force attack:
 
 ### 1. Network Architecture
 *VirtualBox Manager showing the Domain Controller and Client Workstations running simultaneously.*
-(<img width="955" height="513" alt="Github project Splunk picture of all three locatable" src="https://github.com/user-attachments/assets/9b78ad3c-1b48-4ec7-a33a-c40e5adb4cd4" />
-)
+<img width="955" height="513" alt="Github project Splunk picture of all three locatable" src="https://github.com/user-attachments/assets/9b78ad3c-1b48-4ec7-a33a-c40e5adb4cd4" />
+
 
 ### 2. Splunk SIEM Dashboard
 *Visualizing the failed login attempts (Event 4625) from the "Analysis" phase.*
-(<img width="949" height="501" alt="Screenshot github BOTH eventcode screenlock wrong password" src="https://github.com/user-attachments/assets/0e1cc26d-b25c-4f8c-9f37-4805e2f0e4f1" />
-)
+<img width="949" height="501" alt="Screenshot github BOTH eventcode screenlock wrong password" src="https://github.com/user-attachments/assets/0e1cc26d-b25c-4f8c-9f37-4805e2f0e4f1" />
+
 
 ### 3. Remote Desktop (RDP) Success
 *The Domain Controller successfully connected to the Client Desktop after fixing the NLA/Firewall issue.*
-(<img width="955" height="535" alt="RDP to Win10-A via server side using powershell" src="https://github.com/user-attachments/assets/cce0c08b-09d8-41be-b257-a5ae5d6bd23a" />
-)
+<img width="955" height="506" alt="RDP to Win10-A via server side using powershell" src="https://github.com/user-attachments/assets/b3856bc6-7765-4a40-8788-5348088d3aec" />
+
 
 ### 4. Disk Management (Storage)
 *The new "IT_DATA (E:)" drive created via partitioning.*
-(<img width="695" height="449" alt="Managed Storage subsystems by resizing partitions and initializing new NTFS Volumes for Dedicated storage" src="https://github.com/user-attachments/assets/0d823128-5c2e-4ad8-a145-220125350816" />
-)
+<img width="695" height="449" alt="Managed Storage subsystems by resizing partitions and initializing new NTFS Volumes for Dedicated storage" src="https://github.com/user-attachments/assets/0d823128-5c2e-4ad8-a145-220125350816" />
+
 
 ### 5. Group Policy Drive Map
 *The "Company Data (Z:)" drive automatically appearing in File Explorer.*
-(<img width="943" height="509" alt="Implelemented GPO Prefrences to map a shared network drives to ensureing seamless data access for end users" src="https://github.com/user-attachments/assets/76711c71-01ee-4ba6-9e09-f048ac717633" />
-)
+<img width="943" height="509" alt="Implelemented GPO Prefrences to map a shared network drives to ensureing seamless data access for end users" src="https://github.com/user-attachments/assets/76711c71-01ee-4ba6-9e09-f048ac717633" />
+
