@@ -1,0 +1,22 @@
+Splunk windows10a- windows 10b- input conf file
+
+[default]
+host = Win10-A
+
+[WinEventLog://Security]
+index = main
+disabled = 0
+
+
+
+
+[default]
+host = Win10-B
+
+[WinEventLog://Security]
+index = main
+disabled = 0
+
+
+
+
